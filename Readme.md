@@ -1,12 +1,12 @@
-# Library Inventory Manager
+# 📚 Library Inventory Manager
 
-## Overview
+## 🔍 Overview
 
 This project implements a Library Inventory Manager using Python, following the CRISP-DM (Cross-Industry Standard Process for Data Mining) methodology. CRISP-DM provides a structured approach to data-driven projects, which has been adapted here for software development and data management in a library context. The system allows managing books, tracking their status (available/issued), and provides a command-line interface (CLI) for user interactions.
 
-## CRISP-DM Analysis
+## 📊 CRISP-DM Analysis
 
-### 1. Business Understanding
+### 💼 1. Business Understanding
 
 **Objective:** Develop a robust library inventory management system to track books, their availability, and issuance status. The system should support basic CRUD operations for books and provide a user-friendly CLI for librarians and users.
 
@@ -24,7 +24,7 @@ This project implements a Library Inventory Manager using Python, following the 
 - Reduce manual tracking errors.
 - Enable quick status checks and updates.
 
-### 2. Data Understanding
+### 📈 2. Data Understanding
 
 **Data Sources:** The system uses a JSON file (`book_data.json`) to store book information. Each book record includes title, author, ISBN, and status.
 
@@ -57,7 +57,7 @@ The data is stored in a simple JSON array of objects. Example data:
 
 ![Data Structure](Assets/data.png)
 
-### 3. Data Preparation
+### 🧹 3. Data Preparation
 
 **Data Cleaning and Transformation:**
 
@@ -78,7 +78,7 @@ The data is stored in a simple JSON array of objects. Example data:
 **Prepared Data Example:**
 After preparation, books are objects with methods for status management.
 
-### 4. Modeling
+### 🏗️ 4. Modeling
 
 **Model Selection:** This is a data management system rather than a predictive model. The "model" here refers to the software architecture and algorithms for inventory management.
 
@@ -99,7 +99,7 @@ After preparation, books are objects with methods for status management.
 - Used object-oriented programming for modularity.
 - Separated concerns: data models, inventory logic, and user interface.
 
-### 5. Evaluation
+### 📏 5. Evaluation
 
 **Testing Strategy:**
 
@@ -125,7 +125,7 @@ After preparation, books are objects with methods for status management.
 - No advanced search algorithms (e.g., no indexing for large datasets).
 - Basic status validation; could be enhanced with more business rules.
 
-### 6. Deployment
+### 🚀 6. Deployment
 
 **Deployment Environment:**
 
@@ -153,7 +153,7 @@ After preparation, books are objects with methods for status management.
 - Backup JSON data periodically.
 - Monitor for data corruption or invalid states.
 
-## Project Structure
+## 📁 Project Structure
 
 ```tree
 Lib-inv-manager/
@@ -170,24 +170,24 @@ Lib-inv-manager/
 └── Readme.md            # This file
 ```
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **Python 3.x:** Core language
 - **unittest:** For testing
 - **JSON:** Data persistence
 - **CLI:** User interaction
 
-## Contributing
+## 🤝 Contributing
 
 1. Fork the repository.
 2. Create a feature branch.
 3. Make changes and add tests.
 4. Submit a pull request.
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License.
 
-## Contact
+## 📧 Contact
 
 For questions or feedback, please open an issue on GitHub.
